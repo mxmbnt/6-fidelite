@@ -1,0 +1,79 @@
+# i-6be64569 [site] wf:click togglePlayReverse @ wf:class ["faq_question"]
+   - wf:any-element "*" (next-to) :: {"position": 0, "ease": 27} {"wf:transform": {"height": ["0px", "auto"]}}
+   - wf:selector ".faq_icon-wrapper" (within) :: {"position": 0, "ease": 27} {"wf:transform": {"rotation": ["0deg", "180deg"]}}
+# i-70182431 [site] wf:load play
+   - wf:class ["marquee_component-alt"] :: {"duration": 40, "ease": 0} {"wf:transform": {"x": ["-40rem", "0rem"]}}
+   settings {"repeat": -1, "yoyo": false}
+# i-2651ee20 [component] wf:hover restart @ wf:class ["nav_link-wrap"] ; wf:hover reverse @ wf:class ["nav_link-wrap"]
+   - wf:class ["nav_link.is-static"] (within) :: {"duration": 0.4, "stagger": {"each": 0.02}, "ease": 6} {"wf:transform": {"y": ["0%", "-101%"]}} split={"type": "lines"}
+   - wf:class ["nav_link.is-absolute"] (within) :: {"duration": 0.4, "position": 0, "stagger": {"each": 0.02}, "ease": 6} {"wf:transform": {"y": ["100%", "0%"]}} split={"type": "lines"}
+# i-641d755f [site] wf:load play
+   - wf:class ["heading-style-h1"] :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["30%", "0%"]}}
+# i-a8eb4447 [site] wf:load play
+   - wf:class ["button_group.is-hero"] :: {"duration": 0.8, "position": 0.3, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["50%", "0%"]}}
+# i-342b6ba3 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["download_app-wrap"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "scale": [0.8, 1]}}
+# i-61786d06 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["heading-style-h2"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["30%", "0%"]}}
+# i-09c0a938 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["heading-style-display"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["30%", "0%"]}}
+# i-7b8400e7 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["text-size-regular.text-color-black"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["30%", "0%"]}}
+# i-c862ad18 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["content-logo-wrap"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["30%", "0%"]}}
+# i-ecd14c41 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["mobile_img"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["20%", "0%"]}}
+# i-9afa9eeb [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["pricing_highlight-wrap"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "scale": [0.96, 1]}}
+# i-9d0cec05 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["user_card-wrap"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "scale": [0.9, 1]}}
+# i-d185fe6e [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["user_img-wrap"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "scale": [0.9, 1]}}
+# i-651d3f18 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["user_card-content"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "scale": [0.9, 1]}}
+# i-4cd3de86 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["faq_content-wrap"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["30%", "0%"]}}
+# i-d3d67464 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["faq_wrapper"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "scale": [0.96, 1]}}
+# i-22c7b23d [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["styleguide_flex"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["30%", "0%"]}}
+# i-3c723cba [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["syntra_img-wrap"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["30%", "0%"]}}
+# i-da7540c9 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["footer_copyright-flex"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["30%", "0%"]}}
+# i-6b53d04f [site] wf:load play
+   - wf:class ["hero_content-wrap.is-load"] :: {"duration": 0.8, "position": 0.15, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["40%", "0%"]}}
+# i-38b6c313 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["hero_content-wrap.is-boost"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["30%", "0%"]}}
+# i-2b852c21 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["boost_phone-right-img"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "scale": [0.7, 1]}}
+# i-7d9aa218 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["boost_phone-left-img"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "scale": [0.7, 1]}}
+# i-4861e333 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["button_group.is-scroll"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["30%", "0%"]}}
+# i-24d4bbb3 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["text-size-regular.is-c"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["30%", "0%"]}}
+# i-85176ca8 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["heading-style-h3.is-feature"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["30%", "0%"]}}
+# i-f05991d2 [site] wf:scroll start=top 85% end=bottom top scrub=None @ wf:class ["text-size-regular.is-user"]
+   - wf:trigger-only "" :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["30%", "0%"]}}
+# i-abc456ca [site] wf:hover restart @ wf:class ["footer_link-wrap"] ; wf:hover reverse @ wf:class ["footer_link-wrap"]
+   - wf:class ["footer_link.is-static"] (within) :: {"duration": 0.4, "stagger": {"each": 0.02}, "ease": 6} {"wf:transform": {"y": ["0%", "-101%"]}} split={"type": "lines"}
+   - wf:class ["footer_link.is-absolute"] (within) :: {"duration": 0.4, "position": 0, "stagger": {"each": 0.02}, "ease": 6} {"wf:transform": {"y": ["100%", "0%"]}} split={"type": "lines"}
+# i-ddf7043f [site] wf:hover restart @ wf:class ["user_card-wrap"] ; wf:hover reverse @ wf:class ["user_card-wrap"]
+   - wf:trigger-only "" :: {"stagger": {"each": 0.02}, "ease": 6} {"wf:transform": {}, "wf:style": {"backgroundColor": ["var(--neutral--white)", "var(--navigation--menu-color)"]}}
+   - wf:class ["text-size-regular.is-animate"] (within) :: {"stagger": {"each": 0.02}, "ease": 6} {"wf:transform": {}, "wf:style": {"color": ["var(--text--body-80)", "var(--border--line-white)"]}}
+   - wf:class ["text-size-xmedium.is-animate"] (within) :: {"stagger": {"each": 0.02}, "ease": 6} {"wf:style": {"color": ["var(--neutral--black)", "var(--border--line-white)"]}}
+   - wf:class ["text-size-small.is-animate"] (within) :: {"stagger": {"each": 0.02}, "ease": 6} {"wf:style": {"color": ["var(--text--body-80)", "var(--border--line-white)"]}}
+   - wf:class ["social-icon.is-linkedin"] (within) :: {"stagger": {"each": 0.02}, "ease": 6} {"wf:style": {"backgroundColor": ["var(--navigation--menu-color)", "var(--border--line-white)"]}}
+# i-7c710525 [site] wf:hover restart @ wf:class ["user_card-content"] ; wf:hover reverse @ wf:class ["user_card-content"]
+   - wf:trigger-only "" :: {"stagger": {"each": 0.02}, "ease": 6} {"wf:style": {"backgroundColor": ["var(--border--line-white)", "var(--navigation--menu-color)"]}}
+   - wf:class ["text-size-regular.is-animate"] (within) :: {"stagger": {"each": 0.02}, "ease": 6} {"wf:style": {"color": ["var(--text--body-80)", "var(--border--line-white)"]}}
+   - wf:class ["text-size-xmedium.is-animate"] (within) :: {"stagger": {"each": 0.02}, "ease": 6} {"wf:style": {"color": ["var(--neutral--black)", "var(--border--line-white)"]}}
+   - wf:class ["text-size-small.is-animate"] (within) :: {"stagger": {"each": 0.02}, "ease": 6} {"wf:style": {"color": ["var(--text--body-80)", "var(--border--line-white)"]}}
+   - wf:class ["social-icon.is-linkedin.is-mobile"] (within) | wf:class ["social-icon"] (within) :: {"ease": 6} {"wf:style": {"backgroundColor": ["var(--navigation--menu-color)", "var(--border--line-white)"]}}
+# i-adb2e0d8 [site] wf:hover restart @ wf:class ["secondary_btn"] ; wf:hover reverse @ wf:class ["secondary_btn"]
+   - wf:class ["static-text"] (within) :: {"duration": 0.4, "stagger": {"each": 0.02}, "ease": 6} {"wf:transform": {"y": ["0%", "-101%"]}} split={"type": "lines"}
+   - wf:class ["absolute-text"] (within) :: {"duration": 0.4, "position": 0, "stagger": {"each": 0.02}, "ease": 6} {"wf:transform": {"y": ["100%", "0%"]}} split={"type": "lines"}
+# i-01365ca3 [pages:6aa04c742f63e4a0732e8c2d,6aa048387299dbc9ab1675ff] wf:load play
+   - wf:class ["hero_content-wrap.is-privacy"] :: {"duration": 0.8, "ease": 8} {"wf:transform": {"opacity": ["0%", "100%"], "y": ["60%", "0%"]}}
