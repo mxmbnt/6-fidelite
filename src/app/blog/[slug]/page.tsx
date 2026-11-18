@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { Nav } from '@/components/Nav'
 import { Footer } from '@/components/Footer'
+import { FinalCta } from '@/components/Blocks'
 import { Markdown } from '@/components/Markdown'
 import { CTA_HREF } from '@/content/site'
 import { articles, getArticle } from '@/content/blog'
@@ -114,45 +115,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 </div>
 </div>
 </section>
-<section className="section_boost">
-<div className="container-large">
-<div className="hero_wrap is-boost">
-<div className="hero_title-wrap">
-<div className="boost_title-wrap">
-<h2 className="heading-style-h2 text-color-white">Faites revenir vos clients plus souvent</h2>
-</div>
-<div className="hero_content-wrap is-boost">
-<p className="text-size-regular is-white">Créez votre carte de fidélité digitale en 5 minutes et offrez à vos clients une expérience moderne, directement dans leur téléphone.</p>
-</div>
-<div className="button_group is-scroll">
-<a href="https://www.apple.com/app-store/" className="primary_btn w-inline-block">
-<div className="hero_btn">
-<div className="hero_btn-flex">
-<div className="btn-text-wrap">
-<div className="text-1">Essai gratuit</div>
-<div className="text-2">Essai gratuit</div>
-</div>
-<img src="/img/frame-2147235889.svg" loading="lazy" alt="" className="button_logo" />
-</div>
-</div>
-</a>
-<a href={CTA_HREF} className="secondary_btn w-inline-block">
-<div className="demo-text-wrap">
-<div className="static-text">Contact</div>
-<div className="absolute-text">Contact</div>
-</div>
-</a>
-</div>
-</div>
-<div className="boost_img-wrap">
-<img src="/img/mz5g123sn8zuzbpskrwrsnezg9a.webp" loading="lazy" alt="Écran de smartphone montrant l'application" className="boost_phone-left-img" />
-<img src="/img/hbq3maa5lyz7fjuvf487asqbrm.webp" loading="lazy" alt="Écran de smartphone montrant l'application" className="boost_phone-right-img" />
-</div>
-</div>
-</div>
-<img src="/img/vector-526-2-.webp" loading="lazy" alt="motif de fond" className="boost_bg-img" />
-<img src="/img/background-lines-only-v2.webp" loading="lazy" alt="" className="boost_lines-img" />
-</section>
+<FinalCta />
 <Footer />
 </div>
 

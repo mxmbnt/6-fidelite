@@ -16,7 +16,7 @@ export function Nav() {
   const menu = (
 <nav role="navigation" className="nav_menu is-menu w-nav-menu" {...(open ? { "data-nav-menu-open": "" } : {})} style={open ? { transform: "translateY(0px)", transition: "transform 400ms ease" } : undefined}>
 <a href="#" className="nav_brand is-hide w-nav-brand">
-<span className="nav_logo-img wordmark">Fidly</span>
+<span className="nav_logo-img wordmark">Loyna</span>
 </a>
 <div className="shared_line-color hide">
 </div>
@@ -41,7 +41,7 @@ export function Nav() {
 <div className="nav_container">
 <nav role="navigation" className="nav_menu w-nav-menu">
 <Link href="/" className="brand w-nav-brand">
-<span className="nav_logo-img wordmark">Fidly</span>
+<span className="nav_logo-img wordmark">Loyna</span>
 </Link>
 <div className="shared_line-color">
 </div>
@@ -70,7 +70,7 @@ export function Nav() {
 </a>
 </nav>
 <Link href="/" className="nav_brand w-nav-brand">
-<span className="nav_logo-img wordmark">Fidly</span>
+<span className="nav_logo-img wordmark">Loyna</span>
 </Link>
 {!open && menu}
 <div className={"nav_menu-button w-nav-button" + (open ? " w--open" : "")} onClick={() => setOpen((o) => !o)} role="button" aria-label="Menu" aria-expanded={open}>

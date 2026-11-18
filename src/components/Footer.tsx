@@ -9,9 +9,9 @@ export function Footer() {
 <div className="content-logo-wrap">
 <div className="footer_title-wrap">
 <Link href="/" className="footer_logo-wrap w-inline-block">
-<span className="footer_logo wordmark">Fidly</span>
+<span className="footer_logo wordmark">Loyna</span>
 </Link>
-<div className="text-size-regular">La carte de fidélité digitale des commerces de proximité : dans le Wallet de vos clients, tamponnée en un scan.</div>
+<div className="text-size-regular">La carte de fidélité digitale des commerces indépendants. Dans Apple Wallet et Google Wallet, tamponnée en un scan.</div>
 </div>
 <div className="footer_social-logo-flex">
 <a href="https://www.linkedin.com/" target="_blank" className="footer_social-logo-wrap w-inline-block">
@@ -55,8 +55,8 @@ export function Footer() {
 <Link href="/contact" className="footer_link is-absolute">Contact</Link>
 </div>
 <div className="footer_link-wrap">
-<Link href="/contact" className="footer_link is-static">Essai gratuit</Link>
-<Link href="/contact" className="footer_link is-absolute">Essai gratuit</Link>
+<a href={CTA_HREF} className="footer_link is-static">Essai gratuit</a>
+<a href={CTA_HREF} className="footer_link is-absolute">Essai gratuit</a>
 </div>
 </div>
 <div className="styleguide_wrap">
@@ -69,18 +69,14 @@ export function Footer() {
 <Link href="/cgu" className="footer_link is-absolute">CGU</Link>
 </div>
 <div className="footer_link-wrap">
-<Link href="/merci" className="footer_link is-static">Merci</Link>
-<Link href="/merci" className="footer_link is-absolute">Merci</Link>
-</div>
-<div className="footer_link-wrap">
-<Link href="/blog" className="footer_link is-static">Nouveautés</Link>
-<Link href="/blog" className="footer_link is-absolute">Nouveautés</Link>
+<Link href="/contact" className="footer_link is-static">Être rappelé</Link>
+<Link href="/contact" className="footer_link is-absolute">Être rappelé</Link>
 </div>
 </div>
 </div>
 </div>
-<Link href="/" className="syntra_img-wrap w-inline-block" aria-label="Fidly — accueil">
-<span className="syntra_img wordmark" aria-hidden="true">Fidly</span>
+<Link href="/" className="syntra_img-wrap w-inline-block" aria-label="Loyna — accueil">
+<span className="syntra_img wordmark" aria-hidden="true">Loyna</span>
 </Link>
 <div className="footer_copyright-wrap">
 <a href="https://omela.fr" className="text-size-regular is-powered">Site créé avec Omela</a>

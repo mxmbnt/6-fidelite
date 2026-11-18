@@ -1,4 +1,4 @@
-/** Articles du blog Fidly (fictifs). Corps en Markdown simple : ## titres, ### sous-titres, - listes, paragraphes. */
+/** Articles du blog Loyna (fictifs). Corps en Markdown simple : ## titres, ### sous-titres, - listes, paragraphes. */
 export type Article = {
   slug: string
   title: string
@@ -27,7 +27,7 @@ export const articles: Article[] = [
 
 L'hiver est une saison clé pour les commerces de proximité : les clients sortent moins, mais restent fidèles aux adresses qui savent les surprendre. Une carte de fidélité digitale vous donne les moyens de garder le lien, même quand ils ne passent pas devant votre vitrine.
 
-Avec Fidly, tout est centralisé : vos cartes, vos clients, vos statistiques et vos campagnes. Vous voyez en un coup d'œil qui revient, qui s'éloigne et quelle offre fonctionne le mieux.
+Avec Loyna, tout est centralisé : vos cartes, vos clients, vos statistiques et vos campagnes. Vous voyez en un coup d'œil qui revient, qui s'éloigne et quelle offre fonctionne le mieux.
 
 ## Créez une récompense de saison
 
@@ -35,7 +35,7 @@ Une boisson chaude offerte au 8e tampon, une galette à partager en janvier : un
 
 ## Relancez les clients inactifs
 
-Fidly repère automatiquement les clients qui ne sont pas venus depuis 30 jours. Un message personnalisé suffit souvent à les faire revenir.
+Loyna repère automatiquement les clients qui ne sont pas venus depuis 30 jours. Un message personnalisé suffit souvent à les faire revenir.
 
 ## Les bénéfices
 
@@ -49,7 +49,7 @@ Grâce au tableau de bord, suivez la progression de chaque campagne et ajustez v
 
 ## Conclusion
 
-L'hiver n'est pas une fatalité. Avec une récompense bien choisie, des relances ciblées et une carte toujours à portée de main, vos clients ont toutes les raisons de pousser votre porte. Fidly vous aide à le faire en quelques minutes par semaine.`,
+L'hiver n'est pas une fatalité. Avec une récompense bien choisie, des relances ciblées et une carte toujours à portée de main, vos clients ont toutes les raisons de pousser votre porte. Loyna vous aide à le faire en quelques minutes par semaine.`,
   },
   {
     slug: 'carte-papier-ou-digitale',
@@ -145,7 +145,7 @@ Collecter les coordonnées de vos clients implique quelques obligations simples.
 
 ## Conclusion
 
-Fidly est conçu pour vous aider à respecter ces règles sans y penser au quotidien.`,
+Loyna est conçu pour vous aider à respecter ces règles sans y penser au quotidien.`,
   },
   {
     slug: 'idees-de-recompenses',
