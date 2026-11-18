@@ -1,12 +1,11 @@
 import type { Metadata } from 'next'
-import { Hanken_Grotesk, Inter } from 'next/font/google'
+import { Plus_Jakarta_Sans } from 'next/font/google'
 import { Interactions } from '@/components/Interactions'
 import { RULES } from '@/components/ix-rules'
 import { site } from '@/content/site'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' })
-const hanken = Hanken_Grotesk({ subsets: ['latin'], variable: '--font-hanken', display: 'swap' })
+const jakarta = Plus_Jakarta_Sans({ subsets: ['latin'], variable: '--font-jakarta', display: 'swap' })
 
 export const metadata: Metadata = {
   title: { default: `${site.name} — ${site.tagline}`, template: `%s — ${site.name}` },
@@ -16,11 +15,12 @@ export const metadata: Metadata = {
 
 /* Comme Webflow (w-mod-js), les éléments animés sont masqués avant l'exécution du JS
    puis révélés par <Interactions /> une fois leur état initial posé. */
-const IX_HIDE = `html.ix-js :is(${RULES.map((r) => r.sel).join(', ')}) { visibility: hidden; }`
+const IX_HIDE = `@keyframes ix-fallback { to { visibility: visible; } }
+html.ix-js :is(${RULES.map((r) => r.sel).join(', ')}) { visibility: hidden; animation: ix-fallback 0s 2s forwards; }`
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="fr" className={`${inter.variable} ${hanken.variable}`} suppressHydrationWarning>
+    <html lang="fr" className={jakarta.variable} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('ix-js')" }} />
         <style dangerouslySetInnerHTML={{ __html: IX_HIDE }} />

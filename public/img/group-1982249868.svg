@@ -27,28 +27,28 @@
 <rect x="62.8867" y="354.365" width="57.9545" height="57.9545" fill="white" fill-opacity="0.03"/>
 <rect x="468.568" y="122.547" width="57.9545" height="57.9545" fill="white" fill-opacity="0.03"/>
 <g filter="url(#filter0_f_4012_1201)">
-<circle cx="512" cy="102" r="100" fill="#0CAEFE"/>
+<circle cx="512" cy="102" r="100" fill="#7d1bf1"/>
 </g>
 <g filter="url(#filter1_f_4012_1201)">
-<circle cx="102" cy="412" r="100" fill="#0CAEFE"/>
+<circle cx="102" cy="412" r="100" fill="#7d1bf1"/>
 </g>
 <g filter="url(#filter2_f_4012_1201)">
-<ellipse cx="523.608" cy="97.8477" rx="16" ry="123.792" transform="rotate(45 523.608 97.8477)" fill="#0CAEFE"/>
+<ellipse cx="523.608" cy="97.8477" rx="16" ry="123.792" transform="rotate(45 523.608 97.8477)" fill="#7d1bf1"/>
 </g>
 <g filter="url(#filter3_f_4012_1201)">
-<ellipse cx="590.972" cy="141.819" rx="16" ry="123.792" transform="rotate(7 590.972 141.819)" fill="#0CAEFE"/>
+<ellipse cx="590.972" cy="141.819" rx="16" ry="123.792" transform="rotate(7 590.972 141.819)" fill="#7d1bf1"/>
 </g>
 <g filter="url(#filter4_f_4012_1201)">
-<ellipse cx="468.303" cy="22.5617" rx="16" ry="123.792" transform="rotate(87.8831 468.303 22.5617)" fill="#0CAEFE"/>
+<ellipse cx="468.303" cy="22.5617" rx="16" ry="123.792" transform="rotate(87.8831 468.303 22.5617)" fill="#7d1bf1"/>
 </g>
 <g filter="url(#filter5_f_4012_1201)">
-<ellipse cx="15.5512" cy="120.32" rx="15.5512" ry="120.32" transform="matrix(-0.72751 -0.686097 0.72751 -0.686097 24.1777 512)" fill="#0CAEFE"/>
+<ellipse cx="15.5512" cy="120.32" rx="15.5512" ry="120.32" transform="matrix(-0.72751 -0.686097 0.72751 -0.686097 24.1777 512)" fill="#7d1bf1"/>
 </g>
 <g filter="url(#filter6_f_4012_1201)">
-<ellipse cx="15.9868" cy="116.853" rx="15.9868" ry="116.853" transform="matrix(-0.993363 -0.115027 0.129106 -0.991631 33.8281 495.023)" fill="#0CAEFE"/>
+<ellipse cx="15.9868" cy="116.853" rx="15.9868" ry="116.853" transform="matrix(-0.993363 -0.115027 0.129106 -0.991631 33.8281 495.023)" fill="#7d1bf1"/>
 </g>
 <g filter="url(#filter7_f_4012_1201)">
-<ellipse cx="15.0905" cy="123.782" rx="15.0905" ry="123.782" transform="matrix(-0.0391646 -0.999233 0.999393 -0.0348383 32.5859 509.17)" fill="#0CAEFE"/>
+<ellipse cx="15.0905" cy="123.782" rx="15.0905" ry="123.782" transform="matrix(-0.0391646 -0.999233 0.999393 -0.0348383 32.5859 509.17)" fill="#7d1bf1"/>
 </g>
 </g>
 <rect x="1" y="1" width="612" height="512" rx="25" stroke="#E5E9EF" stroke-width="2"/>
